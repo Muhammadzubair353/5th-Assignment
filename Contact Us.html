@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Contact Us</title>
+
+    <style>
+        body{
+            background-image: url(./Assets/saylani\ logo.jpg);
+            background-size: 500px;
+            background-repeat: no-repeat;
+            background-position: inherit;
+            background-color: #03ff5f;   
+        }
+    
+        h2{
+          font-family:'candara'; 
+          font-size: 36px;         
+          font-style: normal; 
+          font-weight: bold; 
+          color: rgb(0, 119, 255);
+          text-align: center; 
+          text-decoration: underline
+        }
+        table{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  color:rgb(5, 5, 5); 
+  font-size: 16px; 
+  font-style: normal;
+  font-weight: bold;
+  background-color: #91b5e4d0; 
+  border-collapse: collapse; 
+  border: 6px solid #000000;
+  border-style: double;
+  
+        }
+        table.inner{
+  border: 10px
+        }
+        input[type=text], input[type=email], input[type=number]{
+  width: 100%;
+  padding: 6px 12px;
+  margin: 5px 5px;
+  box-sizing: border-box;
+        }
+        input[type=submit], input[type=reset]{
+  width: 15%;
+  padding: 8px 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+        
+    }
+
+</style>
+</head>
+<body>
+    <h2>CONTACT US</h2>
+    <table align="right" cellpadding = "20">
+<form>
+
+<!--------------------- First Name ------------------------------------------>
+    <tr>
+        <td>First Name</td>
+        <td><input type="text" name="FirstName" maxlength="50" placeholder="Enter your First Name" required />
+        (Max 50 Characters Allowed)
+        </td>
+    </tr>
+<!------------------------ Last Name --------------------------------------->
+    <tr>
+        <td>Last Name</td>
+        <td><input type="text" name="LastName" maxlength="50" placeholder="Enter your Last Name" required/>
+        (Max 50 Characters Allowed)
+        </td>
+    </tr>
+
+<!------------------------ Father's Name --------------------------------------->
+<tr>
+    <td>Father/Husband Name</td>
+    <td><input type="text" name="LastName" maxlength="50" placeholder="Enter your Father/Husband Name" required/>
+    (Max 50 Characters Allowed)
+    </td>
+</tr>
+
+<!-------------------------- Email ID ------------------------------------->
+    <tr>
+        <td>Email ID</td>
+        <td><input type="email" name="EmailID" maxlength="100" placeholder="Enter you email address"/ required></td>
+    </tr>
+<!-------------------------- Mobile Number ------------------------------------->
+    <tr>
+        <td>Mobile Number</td>
+        <td>
+        <input type="text" name="MobileNumber" maxlength="10" placeholder="0300-0000000" required/>
+        (11 Digits Allowed)
+        </td>
+    </tr>
+<!---------------------- Gender ------------------------------------->
+    <tr>
+        <td>Gender</td>
+        <td>
+        <input type="radio" name="Gender" value="Male" checked  />
+        Male
+        <input type="radio" name="Gender" value="Female" />
+        Female
+        </td>
+    </tr>
+<!---------------------------------------Comments---------------------->
+    
+    <tr>
+        <td>Reviews</td>
+        <td><textarea name="reviews" id="reviews" cols="70" rows="15" placeholder="Enter your Comments here......."></textarea></td>
+    </tr>
+<!----------------------- Submit and Reset ------------------------------->
+    <tr>
+        <td colspan="2" align="center">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </td>
+    </tr>
+</table>
+</form>
+                        
+</body>
+</html>
